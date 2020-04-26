@@ -1,0 +1,123 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+/*================================================= style start================================= */
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.section-padding {
+    padding: 80px 0;
+    
+}
+.section-borders span{
+    width:50px;
+    height: 5px;
+    display: inline-block;
+    background: #6AAF08;
+}
+.section-borders span.black-border{
+    width:30px;
+    height: 5px;
+    background: #333;
+    margin:0 5px;
+}
+.section-title{
+    margin-bottom: 60px;
+}
+.section-title h2{
+    font-size:35px;
+
+}
+.owl-carousel .owl-dots button{
+    height:5px;
+    background: #6AAF08;
+    width:20px;
+    display: inline-block;
+    margin: 5px;
+    transition: 0.2s;
+    border-radius: 2px;
+
+}
+.owl-carousel .owl-dots button.active{
+    height:5px;
+    background: black;
+    width:30px;
+   
+}
+.owl-carousel .owl-dots{
+    margin-top: 20px;
+}
+.clients-testimonial-items {
+    margin:2px;
+    padding:20px;
+    font-style: italic;
+    position: relative;
+    padding-left: 91px;
+}
+.clients-testimonial-items::after {
+   position: absolute;
+   left: 60px;
+   height:75%;
+   width: 2px;
+   background: #eff1ec;
+   content: "";
+   top:10%;
+}
+.clients-testimonial-items.right-quote-icon.fa, .fas {
+    font-weight: 900;
+    color:#6AAF08;
+    position: absolute;
+    left:20px;
+    top: 50%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -15px;
+
+}
+.clients-testimonial-items h3{
+  font-size: 20px;
+  font-style: normal;
+  margin-bottom: 0;
+}
+.clients-testimonial-items h3 span{
+ display: block;
+ font-size: 13px;
+ font-weight: normal;
+ margin-top:5px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#fff;
+}
+
+
+/*================================================= style end================================= */
